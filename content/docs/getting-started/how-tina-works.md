@@ -4,12 +4,14 @@ id: /docs/getting-started/how-tina-works
 prev: /docs/getting-started/introduction
 next: /docs/cms
 ---
-
-## Real-Time Feedback
-
-Static sites work by taking structured content from a source, such as markdown files, and processing them through a template to transform them into HTML pages. Tina sits in the middle of this process, exposing this structured content directly to the end-user via form fields in the browser, while simultaneously passing the same content through to the templating engine.
+> ## Real-Time Feedback
+>
+> _Static sites work by taking structured content from a source, such as markdown files, and processing them through a template to transform them into HTML pages. Tina sits in the middle of this process, exposing this structured content directly to the end-user via form fields in the browser, while simultaneously passing the same content through to the templating engine._
 
 ![tina-diagram](/img/how_tina_works_asset.png)
+
+    var foo;
+    
 
 The end result is a system that gives editors immediate feedback as they edit content, and gives developers precise control over which fields can be edited and how they are presented in the browser.
 
@@ -21,6 +23,6 @@ Tina started as a side project of Forestry.io and inherits its git-backed approa
 
 To gain a better understanding of how Tina works, start by digging into some core Tina concepts:
 
-- [The CMS](https://tinacms.org/docs/cms).
-- [Forms](https://tinacms.org/docs/forms) — these expose editable content to Tina.
-- [Fields](https://tinacms.org/docs/fields) — an individual component that makes up the forms.
+* [The CMS](https://tinacms.org/docs/cms).
+* [Forms](https://tinacms.org/docs/forms) — these expose editable content to Tina.
+* [Fields](https://tinacms.org/docs/fields) — an individual component that makes up the forms.
